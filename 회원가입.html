@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+*{
+	padding: 0;
+	margin: 0px;
+}
+.clear{
+		clear: both;
+	}	
+header{
+	width: 1400px;
+	height: 100px:
+	margin-top: 10px;
+	border: solid 4px #A6A6A6;
+	background-color: white;
+}
+#logo{
+	margin-top:20px;
+	float:left;
+}
+#top{
+	float: right;
+	margin:30px 0px 0 30px;
+}
+nav{
+	width:1400px;
+	margin-top: 10px;
+	height: 70px;
+	border:solid 4px #A6A6A6;
+}
+nav li{
+	float:left;
+	margin: 20px 50px;
+	margin-left: 120px;
+}
+li{
+	list-style-type: none;
+}
+section{
+	float: left;
+	margin-top: 10px;
+}
+
+aside{
+	width: 150px;
+	margin-left: 30px;
+	padding-left: 25px;
+	float:right;
+	margin-top: 20px;
+	border:solid 4px #A6A6A6;
+	background-color: white;
+}
+aside li{
+	margin-bottom:25px;
+	text-align: center;
+}
+
+footer{
+	width:1400px;
+	height:100px;
+margin-top: 20px;
+	background-color: #A6A6A6;;
+}
+#address{
+	float:left;
+	margin:30px 0 0 20px;
+}
+#customer{
+	float: right;
+	margin:30px 0 0 180px;
+}
+#page{
+	width: 1400px;
+	margin:auto;
+}
+.start{
+	margin-left: 300px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+a{
+	color:black;
+	text-decoration: none;
+    }
+.na:hover{
+	opacity: 0.5;
+}
+.na:active{
+	
+	opacity: 0.5;
+}
+
+.dropdown{
+
+		display: inline-block;
+
+	}
+
+.dropdownContents{
+
+		display:none;
+
+		width: 100px;
+
+		padding: 12px 16px;
+
+		position: absolute;
+
+		}
+
+.dropdown:hover .dropdownContents{
+
+		display: block;
+
+	}
+	#sub{
+		margin-left: 590px;
+		border: solid 2px #B3AEFF;
+		padding: 5px;
+		margin-bottom: 20px;
+	}
+	table{
+		border:solid 4px #A6A6A6;
+		margin-left: 400px;
+		padding: 40px;
+		
+
+	}
+	h3{
+		margin-left: 520px;
+		margin-top: 150px;
+	}
+			body{
+		font-family: Arial Unicode MS;
+	}
+	td{
+		padding: 15px;
+	}
+	.slo:hover{
+		width: 800px;
+		height: 800px;
+		transform: rotate(deg);
+		transition: width 3s, height 3s, transform 2s;
+	}
+	</style>
+	<title></title>
+</head>
+<body>
+<div id='page'>
+		<br>
+		<a href="index.html" class="start"><img src="./img/제목.JPG" width="800px" height="100px"></a><br>
+<header> 
+	<div id='logo'></div>
+	<div id='top'><a href="로그인.html"> 로그인 </a>|<a href="회원가입.html"> 회원가입 </a></div>
+</header>
+
+<div class='clear'></div><!--float속성해제-->
+
+	<nav>  
+		<ul>
+	<li><a href="류블랴나.html"class="na"><img src="./img/류.JPG" width="110px"></a></li>
+			<li><a href="피란.html"class="na"><img src="./img/피.JPG" width="85px"></a></li>
+			<li><a href="포스토이나 동굴.html"class="na"><img src="./img/포.JPG" width="110px"></a></li>
+			<li><a href="블레드 호수.html"class="na"><img src="./img/블.JPG" width="75px"></a></li>
+			</ul>
+	 </nav>
+
+	<div class='clear'></div><!--float속성해제-->
+
+<section>
+<h3>개인 정보 입력</h3><br>
+<form>
+<table>
+
+	<tr>
+		<td >이름</td>
+		<td><input type="text" size="10"></td>
+	</tr>
+	<tr>
+		<td>아이디</td>
+		<td><input type="text" size="10"></td>
+	</tr>
+	<tr>
+		<td>비밀번호</td>
+		<td><input type="text" size="10"></td>
+	</tr>
+	<tr>
+		<td>성별</td>
+		<td><input type="radio" name="view">남성
+			<input type="radio" name="view">여성</td>
+	</tr>
+	<tr>
+		<td>관심 지역</td>
+		<td><label><input type="checkbox">동유럽</label>
+			<label><input type="checkbox">북유럽</label>
+			<label><input type="checkbox">남유럽</label>
+			<label><input type="checkbox">서유럽</label></td>
+	</tr>
+	<tr>
+		<td>이메일</td>
+		<td><label><input type="email"  placeholder="info@example.com" size="15"></label></td>
+	</tr>
+</table>
+</form>
+<br>
+<input type="submit" value="가입하기" id="sub">
+</section>
+<br><br>
+
+<aside>
+
+	<div class="dropdown">
+
+	<ul>더보기
+
+	<div class="dropdownContents">	 
+
+	<li><a href="위치.html"> 위치</a></li>
+	<li><a href="행사.html"> 행사</a></li>
+
+	</div></div>
+
+	</ul>
+	</aside>
+	<br><br><br><br><br><br><br><br><br><br><br>
+
+
+	<aside>
+	<div class="dropdown">
+	<ul>날씨
+	<div class="dropdownContents">	 
+	<li><img src="./img/날씨.PNG" width="400px" height="300px" class="slo"></li>
+	</div></div>
+	</ul>
+	</aside>
+
+<br><br><br><br><br><br><br><br><br><br><br>
+
+	<aside>
+	<div class="dropdown">
+	<ul>환율 정보
+	<div class="dropdownContents">	 
+	<li>
+	<table>
+	<tr>
+		<td><img src="./img/환율1.PNG" width="300px"></td>
+	</tr>
+	<td><img src="./img/환율2.PNG" width="300px"></td>
+	<tr></tr>
+	</table>
+	</li>
+	</div></div>
+	</ul>
+	</aside>
+
+
+
+	<div class='clear'></div><!--float속성해제-->
+
+	<footer>
+		<div id='address'>
+		출처 : 옥수수TV, SKY TV, 네이버 지식백과
+		</div>
+		<div id='customer'>
+			관광안내전화: 국번없이 1330
+		</div>
+	</footer>
+</div>
+
+</body>
+</html>
